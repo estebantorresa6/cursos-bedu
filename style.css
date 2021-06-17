@@ -9,11 +9,44 @@ h2 {
   color: #8b8b8bcc;
 }
 
-#btn2{
+button{
   color: #fff;
   background-color: #025157;
 }
 
 body{
   background-color: #1708e725;
+}
+
+.header{
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 0;
+}
+
+.header > * { /* LE APLICA EL ESTILO A TODOS SUS HIJOS */
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: middle;
+  height: 100%;
+  line-height: 45px;
+}
+
+li{
+  display: inline;
+}
+
+.logo{
+  width: 15%;
+}
+
+.navbar{
+  width: 70%;
+  text-align: center;
+  color: #025157;
+}
+
+.logo{
+  width: 15%;
 }
