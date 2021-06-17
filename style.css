@@ -5,24 +5,19 @@ h2 {
   color: #46484c;
 }
 
-#promo{
-  color: #8b8b8bcc;
-}
-
-button{
-  color: #fff;
-  background-color: #025157;
-}
-
 body{
   background-color: #1708e725;
 }
 
+#promo{
+  color: #8b8b8bcc;
+}
+
 .header{
-  margin-top: 40px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 40px 20px 0px 20px;
   font-size: 0;
+  height: 45px;
+  font-family: sans-serif;
 }
 
 .header > * { /* LE APLICA EL ESTILO A TODOS SUS HIJOS */
@@ -33,8 +28,10 @@ body{
   line-height: 45px;
 }
 
-li{
-  display: inline;
+.menu-item{
+  display: inline-block;
+  margin-right: 25px;
+  margin-left: 25px;
 }
 
 .logo{
@@ -45,8 +42,31 @@ li{
   width: 70%;
   text-align: center;
   color: #025157;
+  font-weight: 500;
 }
 
-.logo{
+.actions{
   width: 15%;
+  text-align: right;
+  font-weight: 600;
+  font-size: 14px;
+  color: #67b54b;
+}
+
+.actions > * {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.actions a {
+  color: #67b54b;
+  text-decoration: none;
+}
+
+.actions button {
+  color: #fff;
+  background-color: #67b54b;
+  padding: 20px 20px;
+  border-radius: 5px;
+  border: none;
 }
