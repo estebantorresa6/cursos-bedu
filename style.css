@@ -70,3 +70,34 @@ body{
   border-radius: 5px;
   border: none;
 }
+
+.title{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: 30px;
+  color: #025157;
+}
+
+.txt-small{
+  color: #acb0b6;
+}
+
+.banner{
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+}
+
+.container{
+  display: flex;
+  margin: 100px auto;
+  align-items: center;
+}
+
+.fixed-header{
+  position: fixed;
+  background-color: white;
+  top: 0;
+  right: 0;
+  left: 0;
+}
