@@ -14,7 +14,7 @@ main{
   align-items: center;
 }
 
-button, input, h2{
+input, h2{
   margin: 0;
   font-family: inherit;
   font-size: inherit;
@@ -64,12 +64,12 @@ button, input, h2{
   margin-top: 15px;
 }
 
-.navbar{
+/* .navbar{
   width: 60%;
   text-align: center;
   color: #025157;
   font-weight: 500;
-}
+} */
 
 .actions{
   width: 25%;
@@ -218,4 +218,21 @@ button, input, h2{
   padding-left: -100px;
   height: 300px;
   position: relative; 
+}
+
+
+/** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 575px) {
+}
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {
+}
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {
 }
