@@ -169,7 +169,7 @@ input, h2{
   background-color: #0D5157;
   padding: 50px 150px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 500px 500px;
   grid-template-rows: 1fr 1fr;
   grid-gap: 30px;
 }
@@ -187,6 +187,8 @@ input, h2{
   justify-content: space-around;
   padding: 20px 0px 20px 30px;
   font-family: "Open Sans";
+  width: 50%;
+  flex: 2;
 }
 
 .feature-icon{
@@ -211,13 +213,21 @@ input, h2{
 }
 
 .feature-img{
+  /* width: 40%; */
   overflow: hidden;
+  flex: 1;
 } 
 
 .feature-img img {
-  padding-left: -100px;
   height: 300px;
   position: relative; 
+}
+
+.who-uses{
+  background-color: #a1d683;
+  display: flex;
+  justify-content: center;
+  padding: 50px 150px;
 }
 
 
