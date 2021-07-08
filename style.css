@@ -14,7 +14,7 @@ main{
   align-items: center;
 }
 
-input, h2{
+input, h2, button{
   margin: 0;
   font-family: inherit;
   font-size: inherit;
@@ -228,6 +228,58 @@ input, h2{
   display: flex;
   justify-content: center;
   padding: 50px 150px;
+}
+
+.who-uses-cont{
+  flex-direction: column;
+}
+
+.who-uses-cont h3{
+  font-family: "Alegreya", serif;
+  font-size: 51px;
+  line-height: 48px;
+  color: #025157;
+  line-height: 61px;
+}
+.who-uses-cont p{
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.who-uses-cont button{
+  color: #fff;
+  background-color: #025157;
+  font-size: 14px;
+  padding: 12px;
+  border-radius: 8px;
+  height: 45px;
+  font-weight: 600;
+  border: none;
+} 
+
+.who-uses-cont img{
+  margin-top: 30px;
+  width: 500px;
+  height: 130px;
+}
+
+.uses-card{
+  background-color: #fff;
+  border-radius: 5%;
+  margin-left: 50px;
+  flex-direction: column;
+
+}
+.uses-card img{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 250px;
+  height: 200px;
+}
+
+.over-img{
+  position: absolute;
 }
 
 

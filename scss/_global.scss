@@ -1,0 +1,16 @@
+$dark-green-title: #025157;
+$dark-green-text: #135359;
+$light-green-text: #67b54b;
+$blured-gray-title: #4a4a4a;
+$light-gray-indicator: #979797;
+$white: #ffffff; 
+
+
+$font-title: "Alegreya", serif; 
+
+%base-title {
+  font-family: $font-title;
+  color: $dark-green-text;
+  font-size: 32px;
+  line-height: 38px;
+  } 
